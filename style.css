@@ -1,0 +1,73 @@
+/* Write some CSS below */
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter ;
+  color: #404042;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Quicksand', cursive;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+
+.banner {
+    background-image: url(images/background.jpg);
+    color: white;
+    padding: 100px 100px;
+    background-size: cover;
+    text-align: center;
+}
+
+.btn-blue {
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.cardwhite {
+    background: white;
+    box-shadow: 0px 0px 16px 0px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    width: 200px;
+    padding: 20px 10px 50px 10px;
+    margin: 10px;
+}
+
+.cardwhite img {
+	width: 200px;
+    height: 113px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.container {
+	width: 800px;
+    margin: 0 auto;
+}
+
+.cards {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.footer {
+	text-align: center;
+}
